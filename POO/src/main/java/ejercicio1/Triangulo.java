@@ -46,8 +46,7 @@ public class Triangulo {
         return (this.lado1 + this.lado2 + this.lado3);
     }
 
-    public double getArea() {
-        double altura = Math.sqrt(Math.pow(this.lado1, 2) + Math.pow(this.lado2, 2));
+    public double getArea(int altura) {
         return (this.lado3 * altura) / 2;
     }
 
